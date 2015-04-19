@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <script src="js/clmtrackr.min.js"></script>
+    <script src="js/model_spca_20_svm.js"></script>
+    <script type="text/javascript" src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div id="videoarea">
+        <div id="videoDisplay">
+            <video id="yourVideo" width="640" height="480" autoplay="1" poster="images/bg_img_l.png"></video>
+            <canvas id="drawCanvas" width="640" height="480"></canvas>
+        </div>
+    </div>
+    <p id="positions"></p>
+
+    <script src="main.js"></script>
+    <script src="faceTracking.js"></script>
+
+</body>
+
+</html>
